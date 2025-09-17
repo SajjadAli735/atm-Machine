@@ -75,13 +75,13 @@ function atmDispenser(amount) {
 
   const result = {};
 
-  if (count5000 > 0) result["₹5000"] = count5000;
-  if (count1000 > 0) result["₹1000"] = count1000;
-  if (count500 > 0) result["₹500"] = count500;
-  if (count100 > 0) result["₹100"] = count100;
-  if (count75 > 0) result["₹75"] = count75;
-  if (count50 > 0) result["₹50"] = count50;
-  if (count10 > 0) result["₹10"] = count10;
+  if (count5000 > 0) result["$5000"] = count5000;
+  if (count1000 > 0) result["$1000"] = count1000;
+  if (count500 > 0) result["$500"] = count500;
+  if (count100 > 0) result["$100"] = count100;
+  if (count75 > 0) result["$75"] = count75;
+  if (count50 > 0) result["$50"] = count50;
+  if (count10 > 0) result["$10"] = count10;
 
   return result;
 }
